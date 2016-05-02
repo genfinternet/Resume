@@ -8,7 +8,10 @@
 *.log
 *.core
 *.o
-rsrc/*
 *.iml
 *.jar
+*.aux
+*.pdf
+*.out
 .idea/*
+rsrc/*
