@@ -1,11 +1,11 @@
 LATEX = xelatex
 
 FR = resume-fr.pdf
-MTI = resume-mti.pdf
-SCIA = resume-scia.pdf
-SRS = resume-srs.pdf
+#MTI = resume-mti.pdf
+#SCIA = resume-scia.pdf
+#SRS = resume-srs.pdf
 
-all: $(MTI) $(SCIA) $(SRS) $(FR)
+all: $(FR)
 
 %.pdf: %.tex
 	$(LATEX) $<
@@ -21,4 +21,4 @@ clean:
 	$(RM) *.log
 	$(RM) *.out
 
-.PHONY: fr mti scia srs
+.PHONY: fr# mti scia srs
